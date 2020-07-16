@@ -1,0 +1,36 @@
+PODS:
+  - CollectionKit (2.4.0):
+    - CollectionKit/Core (= 2.4.0)
+  - CollectionKit/Core (2.4.0)
+  - PictureInPicture (0.3.0)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+
+DEPENDENCIES:
+  - CollectionKit
+  - PictureInPicture
+  - RxCocoa
+  - RxSwift
+
+SPEC REPOS:
+  trunk:
+    - CollectionKit
+    - PictureInPicture
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+
+SPEC CHECKSUMS:
+  CollectionKit: 8f01e7629185bb81072c4aa734d105df5c2d1c8b
+  PictureInPicture: bfb333702279f2abf03cc38f2ff004fa842bf3c3
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+
+PODFILE CHECKSUM: 0b586fb544f0fd712b324c025769a7bb4d48acff
+
+COCOAPODS: 1.8.4
