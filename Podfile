@@ -10,4 +10,15 @@ target 'videomenu' do
   pod 'CollectionKit'
   pod 'RxSwift'
   pod 'RxCocoa'
+  pod 'RxDataSources'
+  pod 'RxSwiftExt'
+  pod 'RxOptional'
+  pod 'RxCodable'
+  pod 'Swinject'
+  pod 'HaishinKit'
+  pod 'MessageKit'
+  pod 'Socket.IO-Client-Swift'
+  pod 'IQKeyboardManagerSwift'
+  #pod 'VersaPlayer'
+
 end

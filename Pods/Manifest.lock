@@ -2,35 +2,103 @@ PODS:
   - CollectionKit (2.4.0):
     - CollectionKit/Core (= 2.4.0)
   - CollectionKit/Core (2.4.0)
+  - Differentiator (4.0.1)
+  - HaishinKit (1.0.10):
+    - Logboard (~> 2.1.3)
+  - InputBarAccessoryView (4.3.2):
+    - InputBarAccessoryView/Core (= 4.3.2)
+  - InputBarAccessoryView/Core (4.3.2)
+  - IQKeyboardManagerSwift (6.5.5)
+  - Logboard (2.1.3)
+  - MessageKit (3.1.0):
+    - InputBarAccessoryView (~> 4.3.0)
   - PictureInPicture (0.3.0)
   - RxCocoa (5.1.1):
     - RxRelay (~> 5)
     - RxSwift (~> 5)
+  - RxCodable (1.0.0):
+    - RxCodable/Core (= 1.0.0)
+  - RxCodable/Core (1.0.0):
+    - RxSwift (~> 5.0)
+  - RxDataSources (4.0.1):
+    - Differentiator (~> 4.0)
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxOptional (4.1.0):
+    - RxCocoa (~> 5)
+    - RxSwift (~> 5)
   - RxRelay (5.1.1):
     - RxSwift (~> 5)
   - RxSwift (5.1.1)
+  - RxSwiftExt (5.2.0):
+    - RxSwiftExt/Core (= 5.2.0)
+    - RxSwiftExt/RxCocoa (= 5.2.0)
+  - RxSwiftExt/Core (5.2.0):
+    - RxSwift (~> 5.0)
+  - RxSwiftExt/RxCocoa (5.2.0):
+    - RxCocoa (~> 5.0)
+    - RxSwiftExt/Core
+  - Socket.IO-Client-Swift (15.2.0):
+    - Starscream (~> 3.1)
+  - Starscream (3.1.1)
+  - Swinject (2.7.1)
 
 DEPENDENCIES:
   - CollectionKit
+  - HaishinKit
+  - IQKeyboardManagerSwift
+  - MessageKit
   - PictureInPicture
   - RxCocoa
+  - RxCodable
+  - RxDataSources
+  - RxOptional
   - RxSwift
+  - RxSwiftExt
+  - Socket.IO-Client-Swift
+  - Swinject
 
 SPEC REPOS:
   trunk:
     - CollectionKit
+    - Differentiator
+    - HaishinKit
+    - InputBarAccessoryView
+    - IQKeyboardManagerSwift
+    - Logboard
+    - MessageKit
     - PictureInPicture
     - RxCocoa
+    - RxCodable
+    - RxDataSources
+    - RxOptional
     - RxRelay
     - RxSwift
+    - RxSwiftExt
+    - Socket.IO-Client-Swift
+    - Starscream
+    - Swinject
 
 SPEC CHECKSUMS:
   CollectionKit: 8f01e7629185bb81072c4aa734d105df5c2d1c8b
+  Differentiator: 886080237d9f87f322641dedbc5be257061b0602
+  HaishinKit: 4de4fbb027c656e351329a97da96c0541adab01a
+  InputBarAccessoryView: 7985d418040a05fe894bd4b8328dd43ab35517c3
+  IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
+  Logboard: e74ec2d9941abd22f4db3a3ddcd0735011df92c7
+  MessageKit: 3beb578737a5aa2bba25cc27c7b6d6faa09af5a7
   PictureInPicture: bfb333702279f2abf03cc38f2ff004fa842bf3c3
   RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxCodable: 468b37793b66d804a5b1be16e817d7aab408b52b
+  RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
+  RxOptional: b1fcd60856807a564c0215c2184b8d33e7826dc2
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  RxSwiftExt: 4ca80336f43c28f11a2825cdd2fc61dd6c044697
+  Socket.IO-Client-Swift: 1e3e3a1f09f3312a167f0d781eb2f383d477357c
+  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+  Swinject: ddf78b8486dd9b71a667b852cad919ab4484478e
 
-PODFILE CHECKSUM: 0b586fb544f0fd712b324c025769a7bb4d48acff
+PODFILE CHECKSUM: 22bd21eae9be6f45d476b98ceb326cf030b2c8bd
 
 COCOAPODS: 1.8.4

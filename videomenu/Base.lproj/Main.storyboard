@@ -35,10 +35,10 @@
             </objects>
             <point key="canvasLocation" x="139" y="139"/>
         </scene>
-        <!--Picture In Picture View Controller-->
+        <!--Broadcast View Controller-->
         <scene sceneID="zyR-89-5pt">
             <objects>
-                <viewController id="Hak-Jn-WRc" customClass="PictureInPictureViewController" customModule="videomenu" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="Hak-Jn-WRc" customClass="BroadcastViewController" customModule="videomenu" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="yAI-EX-WMr"/>
                         <viewControllerLayoutGuide type="bottom" id="bQj-KQ-qRz"/>

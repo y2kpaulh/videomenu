@@ -12,10 +12,42 @@
 		2E78842224C00DEF00E18871 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E78842024C00DEF00E18871 /* Main.storyboard */; };
 		2E78842424C00DF000E18871 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E78842324C00DF000E18871 /* Assets.xcassets */; };
 		2E78842724C00DF000E18871 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E78842524C00DF000E18871 /* LaunchScreen.storyboard */; };
-		2EC80F5B24C010A10067AA2F /* PictureInPictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC80F5A24C010A10067AA2F /* PictureInPictureViewController.swift */; };
+		2EC80F5B24C010A10067AA2F /* BroadcastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC80F5A24C010A10067AA2F /* BroadcastViewController.swift */; };
 		2EC80F6124C01E6A0067AA2F /* HorizontalCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC80F5E24C01E690067AA2F /* HorizontalCollectionViewCell.swift */; };
 		2EC80F6224C01E6A0067AA2F /* HorizontalCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EC80F5F24C01E690067AA2F /* HorizontalCollectionViewCell.xib */; };
 		2EC80F6324C01E6A0067AA2F /* HorizontalCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC80F6024C01E690067AA2F /* HorizontalCollectionViewLayout.swift */; };
+		2EC80F6C24C0331B0067AA2F /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC80F6724C0331B0067AA2F /* CollectionViewController.swift */; };
+		2EC80F7024C037940067AA2F /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC80F6F24C037940067AA2F /* TestView.swift */; };
+		2EC80F7224C037A00067AA2F /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EC80F7124C037A00067AA2F /* TestView.xib */; };
+		2EC80FA224C0432C0067AA2F /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC80F7624C0432C0067AA2F /* ChatViewController.swift */; };
+		2EC80FA324C0432C0067AA2F /* ChatRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC80F7724C0432C0067AA2F /* ChatRoomViewController.swift */; };
+		2EC80FA424C0432C0067AA2F /* NSDate+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC80F7924C0432C0067AA2F /* NSDate+Extensions.swift */; };
+		2EC80FA524C0432C0067AA2F /* ChatSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC80F7A24C0432C0067AA2F /* ChatSocket.swift */; };
+		2EC80FA624C0432C0067AA2F /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC80F7B24C0432C0067AA2F /* ChatMessage.swift */; };
+		2EC80FA724C0432C0067AA2F /* ChatRoomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC80F7C24C0432C0067AA2F /* ChatRoomViewModel.swift */; };
+		2EC80FA824C0432C0067AA2F /* ChatUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC80F7D24C0432C0067AA2F /* ChatUser.swift */; };
+		2EC80FA924C0432C0067AA2F /* ChatSocketIOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC80F7E24C0432C0067AA2F /* ChatSocketIOManager.swift */; };
+		2EC80FAA24C0432C0067AA2F /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC80F8024C0432C0067AA2F /* UIViewController+Extensions.swift */; };
+		2EC80FAB24C0432C0067AA2F /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC80F8124C0432C0067AA2F /* UIColor+Extensions.swift */; };
+		2EC80FAC24C0432C0067AA2F /* VersaPlayerPlaybackError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC80F8724C0432C0067AA2F /* VersaPlayerPlaybackError.swift */; };
+		2EC80FAD24C0432C0067AA2F /* VersaPlayerRenderingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC80F8924C0432C0067AA2F /* VersaPlayerRenderingView.swift */; };
+		2EC80FAE24C0432C0067AA2F /* VersaPlayerDecryptionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC80F8B24C0432C0067AA2F /* VersaPlayerDecryptionDelegate.swift */; };
+		2EC80FAF24C0432C0067AA2F /* VersaPlayerPlaybackDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC80F8C24C0432C0067AA2F /* VersaPlayerPlaybackDelegate.swift */; };
+		2EC80FB024C0432C0067AA2F /* VersaPlayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC80F8D24C0432C0067AA2F /* VersaPlayerExtension.swift */; };
+		2EC80FB124C0432C0067AA2F /* VersaPlayerMediaTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC80F8F24C0432C0067AA2F /* VersaPlayerMediaTrack.swift */; };
+		2EC80FB224C0432C0067AA2F /* VersaPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC80F9024C0432C0067AA2F /* VersaPlayer.swift */; };
+		2EC80FB324C0432C0067AA2F /* VersaPlayerCaptionStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC80F9124C0432C0067AA2F /* VersaPlayerCaptionStyling.swift */; };
+		2EC80FB424C0432C0067AA2F /* VersaPlayerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC80F9224C0432C0067AA2F /* VersaPlayerItem.swift */; };
+		2EC80FB524C0432C0067AA2F /* VersaPlayerControlsBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC80F9524C0432C0067AA2F /* VersaPlayerControlsBehaviour.swift */; };
+		2EC80FB624C0432C0067AA2F /* VersaPlayerGestureRecieverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC80F9624C0432C0067AA2F /* VersaPlayerGestureRecieverView.swift */; };
+		2EC80FB724C0432C0067AA2F /* VersaPlayerGestureRecieverViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC80F9724C0432C0067AA2F /* VersaPlayerGestureRecieverViewDelegate.swift */; };
+		2EC80FB824C0432C0067AA2F /* VersaTimeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC80F9924C0432C0067AA2F /* VersaTimeLabel.swift */; };
+		2EC80FB924C0432C0067AA2F /* VersaStatefulButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC80F9A24C0432C0067AA2F /* VersaStatefulButton.swift */; };
+		2EC80FBA24C0432C0067AA2F /* VersaSeekbarSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC80F9B24C0432C0067AA2F /* VersaSeekbarSlider.swift */; };
+		2EC80FBB24C0432C0067AA2F /* VersaPlayerControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC80F9C24C0432C0067AA2F /* VersaPlayerControls.swift */; };
+		2EC80FBC24C0432C0067AA2F /* VersaPlayerControlsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC80F9D24C0432C0067AA2F /* VersaPlayerControlsCoordinator.swift */; };
+		2EC80FBD24C0432C0067AA2F /* VersaPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC80F9E24C0432C0067AA2F /* VersaPlayerView.swift */; };
+		2EC80FBE24C0432C0067AA2F /* SRFacebookAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC80FA124C0432C0067AA2F /* SRFacebookAnimation.swift */; };
 		DA3968E95D6DAA12B49DDE35 /* Pods_videomenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0411F6BDE1CC798E9E18F25 /* Pods_videomenu.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,10 +61,43 @@
 		2E78842324C00DF000E18871 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E78842624C00DF000E18871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E78842824C00DF000E18871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2EC80F5A24C010A10067AA2F /* PictureInPictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureInPictureViewController.swift; sourceTree = "<group>"; };
+		2EC80F5A24C010A10067AA2F /* BroadcastViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BroadcastViewController.swift; sourceTree = "<group>"; };
 		2EC80F5E24C01E690067AA2F /* HorizontalCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalCollectionViewCell.swift; sourceTree = "<group>"; };
 		2EC80F5F24C01E690067AA2F /* HorizontalCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HorizontalCollectionViewCell.xib; sourceTree = "<group>"; };
 		2EC80F6024C01E690067AA2F /* HorizontalCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalCollectionViewLayout.swift; sourceTree = "<group>"; };
+		2EC80F6724C0331B0067AA2F /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		2EC80F6F24C037940067AA2F /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		2EC80F7124C037A00067AA2F /* TestView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestView.xib; sourceTree = "<group>"; };
+		2EC80F7624C0432C0067AA2F /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		2EC80F7724C0432C0067AA2F /* ChatRoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatRoomViewController.swift; sourceTree = "<group>"; };
+		2EC80F7924C0432C0067AA2F /* NSDate+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Extensions.swift"; sourceTree = "<group>"; };
+		2EC80F7A24C0432C0067AA2F /* ChatSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatSocket.swift; sourceTree = "<group>"; };
+		2EC80F7B24C0432C0067AA2F /* ChatMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
+		2EC80F7C24C0432C0067AA2F /* ChatRoomViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatRoomViewModel.swift; sourceTree = "<group>"; };
+		2EC80F7D24C0432C0067AA2F /* ChatUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatUser.swift; sourceTree = "<group>"; };
+		2EC80F7E24C0432C0067AA2F /* ChatSocketIOManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatSocketIOManager.swift; sourceTree = "<group>"; };
+		2EC80F8024C0432C0067AA2F /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		2EC80F8124C0432C0067AA2F /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		2EC80F8724C0432C0067AA2F /* VersaPlayerPlaybackError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersaPlayerPlaybackError.swift; sourceTree = "<group>"; };
+		2EC80F8924C0432C0067AA2F /* VersaPlayerRenderingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersaPlayerRenderingView.swift; sourceTree = "<group>"; };
+		2EC80F8B24C0432C0067AA2F /* VersaPlayerDecryptionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersaPlayerDecryptionDelegate.swift; sourceTree = "<group>"; };
+		2EC80F8C24C0432C0067AA2F /* VersaPlayerPlaybackDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersaPlayerPlaybackDelegate.swift; sourceTree = "<group>"; };
+		2EC80F8D24C0432C0067AA2F /* VersaPlayerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersaPlayerExtension.swift; sourceTree = "<group>"; };
+		2EC80F8F24C0432C0067AA2F /* VersaPlayerMediaTrack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersaPlayerMediaTrack.swift; sourceTree = "<group>"; };
+		2EC80F9024C0432C0067AA2F /* VersaPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersaPlayer.swift; sourceTree = "<group>"; };
+		2EC80F9124C0432C0067AA2F /* VersaPlayerCaptionStyling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersaPlayerCaptionStyling.swift; sourceTree = "<group>"; };
+		2EC80F9224C0432C0067AA2F /* VersaPlayerItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersaPlayerItem.swift; sourceTree = "<group>"; };
+		2EC80F9524C0432C0067AA2F /* VersaPlayerControlsBehaviour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersaPlayerControlsBehaviour.swift; sourceTree = "<group>"; };
+		2EC80F9624C0432C0067AA2F /* VersaPlayerGestureRecieverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersaPlayerGestureRecieverView.swift; sourceTree = "<group>"; };
+		2EC80F9724C0432C0067AA2F /* VersaPlayerGestureRecieverViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersaPlayerGestureRecieverViewDelegate.swift; sourceTree = "<group>"; };
+		2EC80F9924C0432C0067AA2F /* VersaTimeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersaTimeLabel.swift; sourceTree = "<group>"; };
+		2EC80F9A24C0432C0067AA2F /* VersaStatefulButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersaStatefulButton.swift; sourceTree = "<group>"; };
+		2EC80F9B24C0432C0067AA2F /* VersaSeekbarSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersaSeekbarSlider.swift; sourceTree = "<group>"; };
+		2EC80F9C24C0432C0067AA2F /* VersaPlayerControls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersaPlayerControls.swift; sourceTree = "<group>"; };
+		2EC80F9D24C0432C0067AA2F /* VersaPlayerControlsCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersaPlayerControlsCoordinator.swift; sourceTree = "<group>"; };
+		2EC80F9E24C0432C0067AA2F /* VersaPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersaPlayerView.swift; sourceTree = "<group>"; };
+		2EC80F9F24C0432C0067AA2F /* StreamDemo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "StreamDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		2EC80FA124C0432C0067AA2F /* SRFacebookAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRFacebookAnimation.swift; sourceTree = "<group>"; };
 		E0411F6BDE1CC798E9E18F25 /* Pods_videomenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_videomenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -51,6 +116,8 @@
 		2E78840E24C00DEF00E18871 = {
 			isa = PBXGroup;
 			children = (
+				2EC80F6F24C037940067AA2F /* TestView.swift */,
+				2EC80F7124C037A00067AA2F /* TestView.xib */,
 				2E78841924C00DEF00E18871 /* videomenu */,
 				2E78841824C00DEF00E18871 /* Products */,
 				934AC099D5CBCCCF84CAA749 /* Pods */,
@@ -69,18 +136,193 @@
 		2E78841924C00DEF00E18871 /* videomenu */ = {
 			isa = PBXGroup;
 			children = (
-				2EC80F5E24C01E690067AA2F /* HorizontalCollectionViewCell.swift */,
-				2EC80F5F24C01E690067AA2F /* HorizontalCollectionViewCell.xib */,
-				2EC80F6024C01E690067AA2F /* HorizontalCollectionViewLayout.swift */,
+				2EC80F7324C0432C0067AA2F /* Library */,
+				2EC80F6424C032D90067AA2F /* View */,
 				2E78841A24C00DEF00E18871 /* AppDelegate.swift */,
 				2E78841E24C00DEF00E18871 /* ViewController.swift */,
-				2EC80F5A24C010A10067AA2F /* PictureInPictureViewController.swift */,
+				2EC80F5A24C010A10067AA2F /* BroadcastViewController.swift */,
 				2E78842024C00DEF00E18871 /* Main.storyboard */,
 				2E78842324C00DF000E18871 /* Assets.xcassets */,
 				2E78842524C00DF000E18871 /* LaunchScreen.storyboard */,
 				2E78842824C00DF000E18871 /* Info.plist */,
 			);
 			path = videomenu;
+			sourceTree = "<group>";
+		};
+		2EC80F6424C032D90067AA2F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2EC80F5E24C01E690067AA2F /* HorizontalCollectionViewCell.swift */,
+				2EC80F5F24C01E690067AA2F /* HorizontalCollectionViewCell.xib */,
+				2EC80F6024C01E690067AA2F /* HorizontalCollectionViewLayout.swift */,
+				2EC80F6724C0331B0067AA2F /* CollectionViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2EC80F7324C0432C0067AA2F /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				2EC80F7424C0432C0067AA2F /* Chat */,
+				2EC80F8224C0432C0067AA2F /* VersaPlayer */,
+				2EC80F9F24C0432C0067AA2F /* StreamDemo-Bridging-Header.h */,
+				2EC80FA024C0432C0067AA2F /* Like Animation */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		2EC80F7424C0432C0067AA2F /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				2EC80F7524C0432C0067AA2F /* View Controllers */,
+				2EC80F7824C0432C0067AA2F /* Models */,
+				2EC80F7F24C0432C0067AA2F /* Extensions */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		2EC80F7524C0432C0067AA2F /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2EC80F7624C0432C0067AA2F /* ChatViewController.swift */,
+				2EC80F7724C0432C0067AA2F /* ChatRoomViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		2EC80F7824C0432C0067AA2F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2EC80F7924C0432C0067AA2F /* NSDate+Extensions.swift */,
+				2EC80F7A24C0432C0067AA2F /* ChatSocket.swift */,
+				2EC80F7B24C0432C0067AA2F /* ChatMessage.swift */,
+				2EC80F7C24C0432C0067AA2F /* ChatRoomViewModel.swift */,
+				2EC80F7D24C0432C0067AA2F /* ChatUser.swift */,
+				2EC80F7E24C0432C0067AA2F /* ChatSocketIOManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2EC80F7F24C0432C0067AA2F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2EC80F8024C0432C0067AA2F /* UIViewController+Extensions.swift */,
+				2EC80F8124C0432C0067AA2F /* UIColor+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2EC80F8224C0432C0067AA2F /* VersaPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				2EC80F8324C0432C0067AA2F /* Classes */,
+			);
+			path = VersaPlayer;
+			sourceTree = "<group>";
+		};
+		2EC80F8324C0432C0067AA2F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2EC80F8424C0432C0067AA2F /* Source */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2EC80F8424C0432C0067AA2F /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				2EC80F8524C0432C0067AA2F /* Core */,
+				2EC80F9324C0432C0067AA2F /* VersaPlayerControls */,
+				2EC80F9E24C0432C0067AA2F /* VersaPlayerView.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		2EC80F8524C0432C0067AA2F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2EC80F8624C0432C0067AA2F /* Enums */,
+				2EC80F8824C0432C0067AA2F /* Rendering */,
+				2EC80F8A24C0432C0067AA2F /* Protocols */,
+				2EC80F8E24C0432C0067AA2F /* Player */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2EC80F8624C0432C0067AA2F /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				2EC80F8724C0432C0067AA2F /* VersaPlayerPlaybackError.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		2EC80F8824C0432C0067AA2F /* Rendering */ = {
+			isa = PBXGroup;
+			children = (
+				2EC80F8924C0432C0067AA2F /* VersaPlayerRenderingView.swift */,
+			);
+			path = Rendering;
+			sourceTree = "<group>";
+		};
+		2EC80F8A24C0432C0067AA2F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				2EC80F8B24C0432C0067AA2F /* VersaPlayerDecryptionDelegate.swift */,
+				2EC80F8C24C0432C0067AA2F /* VersaPlayerPlaybackDelegate.swift */,
+				2EC80F8D24C0432C0067AA2F /* VersaPlayerExtension.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		2EC80F8E24C0432C0067AA2F /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				2EC80F8F24C0432C0067AA2F /* VersaPlayerMediaTrack.swift */,
+				2EC80F9024C0432C0067AA2F /* VersaPlayer.swift */,
+				2EC80F9124C0432C0067AA2F /* VersaPlayerCaptionStyling.swift */,
+				2EC80F9224C0432C0067AA2F /* VersaPlayerItem.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		2EC80F9324C0432C0067AA2F /* VersaPlayerControls */ = {
+			isa = PBXGroup;
+			children = (
+				2EC80F9424C0432C0067AA2F /* Core */,
+				2EC80F9824C0432C0067AA2F /* Controls */,
+				2EC80F9C24C0432C0067AA2F /* VersaPlayerControls.swift */,
+				2EC80F9D24C0432C0067AA2F /* VersaPlayerControlsCoordinator.swift */,
+			);
+			path = VersaPlayerControls;
+			sourceTree = "<group>";
+		};
+		2EC80F9424C0432C0067AA2F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2EC80F9524C0432C0067AA2F /* VersaPlayerControlsBehaviour.swift */,
+				2EC80F9624C0432C0067AA2F /* VersaPlayerGestureRecieverView.swift */,
+				2EC80F9724C0432C0067AA2F /* VersaPlayerGestureRecieverViewDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2EC80F9824C0432C0067AA2F /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				2EC80F9924C0432C0067AA2F /* VersaTimeLabel.swift */,
+				2EC80F9A24C0432C0067AA2F /* VersaStatefulButton.swift */,
+				2EC80F9B24C0432C0067AA2F /* VersaSeekbarSlider.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		2EC80FA024C0432C0067AA2F /* Like Animation */ = {
+			isa = PBXGroup;
+			children = (
+				2EC80FA124C0432C0067AA2F /* SRFacebookAnimation.swift */,
+			);
+			path = "Like Animation";
 			sourceTree = "<group>";
 		};
 		6AD242B99C7BEADC5CA213E0 /* Frameworks */ = {
@@ -163,6 +405,7 @@
 				2EC80F6224C01E6A0067AA2F /* HorizontalCollectionViewCell.xib in Resources */,
 				2E78842724C00DF000E18871 /* LaunchScreen.storyboard in Resources */,
 				2E78842424C00DF000E18871 /* Assets.xcassets in Resources */,
+				2EC80F7224C037A00067AA2F /* TestView.xib in Resources */,
 				2E78842224C00DEF00E18871 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,11 +459,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EC80FB624C0432C0067AA2F /* VersaPlayerGestureRecieverView.swift in Sources */,
+				2EC80FB024C0432C0067AA2F /* VersaPlayerExtension.swift in Sources */,
+				2EC80FA824C0432C0067AA2F /* ChatUser.swift in Sources */,
+				2EC80FBE24C0432C0067AA2F /* SRFacebookAnimation.swift in Sources */,
+				2EC80FA424C0432C0067AA2F /* NSDate+Extensions.swift in Sources */,
+				2EC80F7024C037940067AA2F /* TestView.swift in Sources */,
+				2EC80FA524C0432C0067AA2F /* ChatSocket.swift in Sources */,
+				2EC80FAC24C0432C0067AA2F /* VersaPlayerPlaybackError.swift in Sources */,
 				2E78841F24C00DEF00E18871 /* ViewController.swift in Sources */,
-				2EC80F5B24C010A10067AA2F /* PictureInPictureViewController.swift in Sources */,
+				2EC80FA224C0432C0067AA2F /* ChatViewController.swift in Sources */,
+				2EC80FA724C0432C0067AA2F /* ChatRoomViewModel.swift in Sources */,
+				2EC80FB124C0432C0067AA2F /* VersaPlayerMediaTrack.swift in Sources */,
+				2EC80FBB24C0432C0067AA2F /* VersaPlayerControls.swift in Sources */,
+				2EC80FBD24C0432C0067AA2F /* VersaPlayerView.swift in Sources */,
+				2EC80FB324C0432C0067AA2F /* VersaPlayerCaptionStyling.swift in Sources */,
+				2EC80FB424C0432C0067AA2F /* VersaPlayerItem.swift in Sources */,
+				2EC80FAE24C0432C0067AA2F /* VersaPlayerDecryptionDelegate.swift in Sources */,
+				2EC80FAF24C0432C0067AA2F /* VersaPlayerPlaybackDelegate.swift in Sources */,
+				2EC80F5B24C010A10067AA2F /* BroadcastViewController.swift in Sources */,
 				2EC80F6124C01E6A0067AA2F /* HorizontalCollectionViewCell.swift in Sources */,
+				2EC80FB924C0432C0067AA2F /* VersaStatefulButton.swift in Sources */,
+				2EC80F6C24C0331B0067AA2F /* CollectionViewController.swift in Sources */,
+				2EC80FB524C0432C0067AA2F /* VersaPlayerControlsBehaviour.swift in Sources */,
+				2EC80FBA24C0432C0067AA2F /* VersaSeekbarSlider.swift in Sources */,
+				2EC80FB724C0432C0067AA2F /* VersaPlayerGestureRecieverViewDelegate.swift in Sources */,
+				2EC80FAD24C0432C0067AA2F /* VersaPlayerRenderingView.swift in Sources */,
+				2EC80FB824C0432C0067AA2F /* VersaTimeLabel.swift in Sources */,
+				2EC80FBC24C0432C0067AA2F /* VersaPlayerControlsCoordinator.swift in Sources */,
+				2EC80FA924C0432C0067AA2F /* ChatSocketIOManager.swift in Sources */,
 				2E78841B24C00DEF00E18871 /* AppDelegate.swift in Sources */,
+				2EC80FB224C0432C0067AA2F /* VersaPlayer.swift in Sources */,
+				2EC80FAA24C0432C0067AA2F /* UIViewController+Extensions.swift in Sources */,
+				2EC80FA624C0432C0067AA2F /* ChatMessage.swift in Sources */,
 				2EC80F6324C01E6A0067AA2F /* HorizontalCollectionViewLayout.swift in Sources */,
+				2EC80FAB24C0432C0067AA2F /* UIColor+Extensions.swift in Sources */,
+				2EC80FA324C0432C0067AA2F /* ChatRoomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

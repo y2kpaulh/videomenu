@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     
     @IBAction func tapBtn(_ sender: Any) {
        guard let vc = UIStoryboard(name: "Main", bundle: .main).instantiateViewController(withIdentifier: "PiP") as? UIViewController else { return }
-        vc.modalPresentationStyle = .overFullScreen
+       vc.modalPresentationStyle = .overFullScreen
        PictureInPicture.shared.present(with: vc)
     }
 }
