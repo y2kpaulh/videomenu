@@ -12,11 +12,16 @@ import RxCocoa
 import PictureInPicture
 import RxDataSources
 import IQKeyboardManagerSwift
+import SwiftMessages
 
 final class BroadcastViewController: UIViewController {
 //  var rxDataSource: RxCollectionViewSectionedReloadDataSource<BroadcastSection>!
 //  private var subject: BehaviorRelay<[BroadcastSection]> = BehaviorRelay(value: [])
-
+    
+    @objc @IBAction private func dismissPresented(segue: UIStoryboardSegue) {
+        dismiss(animated: true, completion: nil)
+    }
+    
   var collectionView: UICollectionView?
   var collectionLayout: HorizontalCollectionViewLayout = HorizontalCollectionViewLayout()
   let disposeBag = DisposeBag()
@@ -56,32 +61,18 @@ final class BroadcastViewController: UIViewController {
     collectionLayout.itemSize           = self.view.frame.size
     collectionLayout.minimumLineSpacing = 0
 
-    self.view.addSubview(collectionView!)
+    //self.view.addSubview(collectionView!)
+    self.view.insertSubview(collectionView!, at: 0)
     // configChatView()
     //bindCollectionView()
   }
     
-//  func bindCollectionView() {
-//    let cities = Observable.of(["Lisbon", "Copenhagen", "London", "Madrid", "Vienna"])
-//
-//      cities.bind(to: collectionView!.rx.items) { (collectionView: UICollectionView, index: Int, element: String) in
-//      let cell = UICollectionViewCell(frame: self.view.bounds)
-//      return cell
-//      }.disposed(by: disposeBag)
-//
-//      collectionView!.rx.modelSelected(String.self)
-//         .subscribe(onNext: { model in
-//             print("\(model) was selected")
-//         })
-//         .disposed(by: disposeBag)
-//  }
-
-    func configChatView() {
-      chatView.willMove(toParent: self)
-      addChild(chatView)
-      view.addSubview(chatView.view)
-      chatView.didMove(toParent: self)
-    }
+  func configChatView() {
+    chatView.willMove(toParent: self)
+    addChild(chatView)
+    view.addSubview(chatView.view)
+    chatView.didMove(toParent: self)
+  }
 
   override var preferredStatusBarStyle: UIStatusBarStyle {
     return .lightContent
@@ -107,9 +98,24 @@ final class BroadcastViewController: UIViewController {
   }
     
   @IBAction private func makeSmaller() {
-    PictureInPicture.shared.makeSmaller()
+  //  PictureInPicture.shared.makeSmaller()
+    let childVC = storyboard!.instantiateViewController(withIdentifier: "Child")
+           let segue = BottomCardSegue(identifier: nil, source: self, destination: childVC)
+           prepare(for: segue, sender: nil)
+           segue.perform()
   }
-
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let navigationVC = segue.destination as! UINavigationController
+        let rootVC = navigationVC.viewControllers.first!
+        let doneButton = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(hide))
+        rootVC.navigationItem.rightBarButtonItem = doneButton
+    }
+    
+    @objc private func hide() {
+        dismiss(animated: true, completion: nil)
+    }
+    
     override func viewDidLayoutSubviews() {
       super.viewDidLayoutSubviews()
 
@@ -159,4 +165,35 @@ extension BroadcastViewController: UICollectionViewDataSource {
     
     return cell
   }
+
+}
+
+class SwiftMessagesBottomCardSegue: SwiftMessagesSegue {
+    override public  init(identifier: String?, source: UIViewController, destination: UIViewController) {
+        super.init(identifier: identifier, source: source, destination: destination)
+        //configure(layout: .bottomCard)
+                
+        messageView.layoutMarginAdditions = UIEdgeInsets(top: 20, left: 20, bottom: 20, right: 20)
+        messageView.collapseLayoutMarginAdditions = true
+        containerView.cornerRadius = 15
+        presentationStyle = .bottom
+        
+        eventListeners.append() { event in
+            switch event {
+            case .willShow:
+                print("willShow")
+            case .willHide:
+                print("willHide")
+            case .didShow:
+                print("didShow")
+            case .didHide:
+                print("didHide")
+            }
+        }
+               
+        messageView.tapHandler = { _ in
+            print("tapped SwiftMessage")
+            SwiftMessages.hide()
+        }
+    }
 }

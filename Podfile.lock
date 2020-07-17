@@ -41,6 +41,9 @@ PODS:
   - Socket.IO-Client-Swift (15.2.0):
     - Starscream (~> 3.1)
   - Starscream (3.1.1)
+  - SwiftMessages (8.0.0):
+    - SwiftMessages/App (= 8.0.0)
+  - SwiftMessages/App (8.0.0)
   - Swinject (2.7.1)
 
 DEPENDENCIES:
@@ -56,6 +59,7 @@ DEPENDENCIES:
   - RxSwift
   - RxSwiftExt
   - Socket.IO-Client-Swift
+  - SwiftMessages
   - Swinject
 
 SPEC REPOS:
@@ -77,6 +81,7 @@ SPEC REPOS:
     - RxSwiftExt
     - Socket.IO-Client-Swift
     - Starscream
+    - SwiftMessages
     - Swinject
 
 SPEC CHECKSUMS:
@@ -97,8 +102,9 @@ SPEC CHECKSUMS:
   RxSwiftExt: 4ca80336f43c28f11a2825cdd2fc61dd6c044697
   Socket.IO-Client-Swift: 1e3e3a1f09f3312a167f0d781eb2f383d477357c
   Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+  SwiftMessages: 29e7975b1173fd4e8357600c6518b5a59bc607d6
   Swinject: ddf78b8486dd9b71a667b852cad919ab4484478e
 
-PODFILE CHECKSUM: 22bd21eae9be6f45d476b98ceb326cf030b2c8bd
+PODFILE CHECKSUM: 4ae3f64b18b32e555310afaafcf5eeea7bb2143b
 
 COCOAPODS: 1.8.4

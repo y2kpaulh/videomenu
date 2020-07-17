@@ -19,6 +19,7 @@ target 'videomenu' do
   pod 'MessageKit'
   pod 'Socket.IO-Client-Swift'
   pod 'IQKeyboardManagerSwift'
+  pod 'SwiftMessages'
   #pod 'VersaPlayer'
 
 end
